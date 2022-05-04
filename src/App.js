@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about/About';
 import Navbar from './components/navbar/Navbar';
 import Principal from './components/principal/Principal';
+import ProyectGrid from './components/grid/ProyectGrid';
 
 
 function App() {
@@ -18,12 +19,12 @@ function App() {
     window.addEventListener('scroll', handleScroll)
   },[scroll])
 
-console.log(scroll)
   return (
     <div className="App">
       <Navbar isScrolling={ scroll } />
       <Principal />
       <About/>
+      <ProyectGrid/>
     </div>
   );
 }

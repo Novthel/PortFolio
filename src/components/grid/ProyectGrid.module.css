@@ -1,0 +1,55 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.subTitle{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card{
+    width:300px;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    object-fit: contain;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.card img:hover{
+   filter: blur();
+   transform: scale(1.2);
+}
+
+.title{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+}
+
+.title p{
+    color: red;
+    display: block;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+@media (max-width:500px) {
+    
+    .container{
+        gap: 30px;
+    }
+    
+}
