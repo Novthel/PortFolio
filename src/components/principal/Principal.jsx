@@ -8,7 +8,7 @@ export default function Principal() {
     <div className={styles.principal}>
         <video className={styles.video} src={ programming } autoPlay loop muted />
         <h1>Oscar Novoa Berthel</h1>
-        <p>Ing. Electronico |  Desarrollador Front-end  |  Esp. Gestion Energetica</p>
+        <p>Ing. Electronico   |   Desarrollador Front-end </p>
     </div>
   )
 }

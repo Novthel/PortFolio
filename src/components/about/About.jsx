@@ -12,7 +12,11 @@ export default function About() {
         
       <div className={styles.description}>
           <h3>Aceca de mi</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          <p>Ingeniero Electrónico y Telecomunicaciones, Desarrollador Frontend, apasionado por el mundo de la tecnología en especial la programación.<br/> 
+             Con conocimientos en el desarrollo de páginas web con HTML5, CSS3 y JavaScript así como manejo de lenguajes de programación Java, JavaScript,
+             Python, librería ReactJs, base de datos MySQL y MongoDB.<br/> 
+             Proactivo y autodidacta con excelente disposición para el aprendizaje y experiencia en trabajo en equipo mediante metodología SCRUM.
+          </p>
       </div>
        
     </div>
