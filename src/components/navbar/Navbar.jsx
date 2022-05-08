@@ -8,7 +8,6 @@ export default function Navbar() {
 
     const item = document.querySelector('ul')
     item.classList.toggle(`${ styles.show }`)
-    console.log(item)
   }
 
 
@@ -18,10 +17,10 @@ export default function Navbar() {
           Novthel    
         </div>
         <ul className={ styles.itemsMenu }>
-          <li> <a href='#inicio'>Home</a></li>
-          <li> <a href='#about'>Acerca</a></li>
-          <li> <a href='#proyects'>Proyectos</a></li>
-          <li> <a href='#footer'>Contacto</a> </li>
+          <li> <a href='#inicio' onClick={show}>Home</a></li>
+          <li> <a href='#about' onClick={show}>Acerca</a></li>
+          <li> <a href='#proyects' onClick={show}>Proyectos</a></li>
+          <li> <a href='#footer' onClick={show}>Contacto</a> </li>
         </ul>
         <span className={styles.btnMenu} onClick={show}>
           <FcMenu/>

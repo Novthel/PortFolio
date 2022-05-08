@@ -5,13 +5,13 @@
     background-color: black;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.8);
    
 }
 
 .logo{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0 80px;
     font-weight: bold;
 }
@@ -55,7 +55,7 @@ ul.show{
 
 @media screen and (max-width: 952px) {
     .logo{
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 30px;
     }
     .itemsMenu li a{
@@ -74,9 +74,9 @@ ul.show{
     .itemsMenu {
         position: fixed;
         width: 100vw;
-        height: calc(100%-65px);
+        height: calc(100% - 65px);
         background: black;
-        top: 100vh;
+        top: -100vh;
         text-align: center;
         transition: all .4s;
         flex-direction: column;
@@ -90,7 +90,7 @@ ul.show{
         font-weight: bold;
     }
 
-    itemsMenu li a:hover{
+    .itemsMenu li a:hover{
         color: blue;
     }
     .logo{
@@ -104,7 +104,7 @@ ul.show{
   
     .itemsMenu {
       overflow: scroll;
-      height: calc(100%-65px)
+      height: calc(100% - 65px)
     }
     .itemsMenu li{
         margin: 5px 0 0 0;

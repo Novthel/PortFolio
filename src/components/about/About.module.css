@@ -1,6 +1,5 @@
 .about{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
     gap: 60px;
@@ -43,21 +42,43 @@
     
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:960px) {
     
     .about{
-        gap: 30px;
+        gap: 10px;
     }
     .photo{
-        width: 60%;
+        width: 80%;
         margin: auto;
     }
 
     .description h3{
         font-size: 1.3rem;
+        
     }
     .description p{
-        width: 95%;
+        width: 90%;
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .about{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .photo{
+        width: 50%;
+        margin: auto;
+    }
+
+    .description h3{
+        font-size: 1.3rem;
+        
+    }
+    .description p{
+        width: 90%;
+        font-size: 0.9rem;
     }
 }

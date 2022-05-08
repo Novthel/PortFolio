@@ -26,7 +26,6 @@
 }
 
 .card img:hover{
-   filter: blur();
    transform: scale(1.2);
 }
 
@@ -46,7 +45,7 @@
     padding: 10px 0 10px 0;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:600px) {
     
     .container{
         gap: 30px;
