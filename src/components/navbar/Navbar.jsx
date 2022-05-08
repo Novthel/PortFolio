@@ -1,18 +1,31 @@
-import React from 'react';
+
 import styles from './Navbar.module.css';
+import { FcMenu } from "react-icons/fc";
 
-export default function Navbar({ isScrolling }) {
+export default function Navbar() {
+ 
+  const show =()=>{
 
-    const toTop = ()=>{
-       window.scroll({top:0, margin:0, behavior:'smooth'}) 
-    }
+    const item = document.querySelector('ul')
+    item.classList.toggle(`${ styles.show }`)
+    console.log(item)
+  }
 
 
   return (
-    <nav className={ `${  styles.navbar } ${ isScrolling > 20 ? styles.scrolling : null }` }>
-        <div className={ styles.logo } onClick={ toTop }>
-            Novthel
+    <nav className={ styles.navbar }>
+        <div className={ styles.logo }>
+          Novthel    
         </div>
+        <ul className={ styles.itemsMenu }>
+          <li> <a href='#inicio'>Home</a></li>
+          <li> <a href='#about'>Acerca</a></li>
+          <li> <a href='#proyects'>Proyectos</a></li>
+          <li> <a href='#footer'>Contacto</a> </li>
+        </ul>
+        <span className={styles.btnMenu} onClick={show}>
+          <FcMenu/>
+        </span>
     </nav>
   )
 }

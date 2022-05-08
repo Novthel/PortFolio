@@ -9,7 +9,7 @@ import { IoLogoGithub } from "react-icons/io5";
 export default function Footer() {
   return (
 
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id='footer'>
       
       <div className={styles.info}>
         <h1><ImLocation/></h1>
@@ -30,9 +30,6 @@ export default function Footer() {
           </a>
           <a href="https://github.com/Novthel" target="_blank" rel="noopener noreferrer">
             <IoLogoGithub/>
-          </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook facebook"></i>
           </a>
       </div>
     </footer>

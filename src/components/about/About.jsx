@@ -5,7 +5,7 @@ import photo from '../../media/photo1.jpeg';
 
 export default function About() {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id='about'>
       <div className={styles.photoContainer}>
         <img className={styles.photo} src={ photo } alt='foto' size={300} />
       </div>

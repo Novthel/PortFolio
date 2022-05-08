@@ -7,7 +7,7 @@ import criptomoneda from '../../media/criptomoneda.jpg';
 
 export default function ProyectGrid() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='proyects'>
         <div className={styles.subTitle} >
           <h3>Mis Proyectos</h3>
         </div>
