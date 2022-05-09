@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className={ styles.navbar }>
         <div className={ styles.logo }>
-          Novthel    
+          NOVTHEL   
         </div>
         <ul className={ styles.itemsMenu }>
           <li> <a href='#inicio' onClick={show}>Home</a></li>

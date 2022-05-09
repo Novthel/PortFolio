@@ -10,7 +10,7 @@
 }
 
 .logo{
-    color: white;
+    color: rgb(85, 51, 206);
     font-size: 25px;
     padding: 0 80px;
     font-weight: bold;
@@ -94,7 +94,7 @@ ul.show{
         color: blue;
     }
     .logo{
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 35px;
     }
 }
