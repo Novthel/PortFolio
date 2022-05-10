@@ -2,20 +2,24 @@
     width: 100%;
     height: 100vh;
     object-fit: contain;
-    box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.video{
+.image{
     width: 100%;
     height: 100vh;
     object-fit: cover; 
     z-index: -1;
     position: absolute;
  
+}
+
+.enlace{
+    margin-top: 50px;
 }
 
 .principal h1{
@@ -27,6 +31,11 @@
     color: white;
     font-size: 1.5rem;
 }
+
+.download{
+    font-size: 0.9rem !important;
+}
+
 
 @media screen and (max-width: 960px) {
     .principal h1{   
@@ -45,5 +54,8 @@
     .principal p{ 
         font-size: 1rem;
         text-align: center;
+    }
+    .download{
+        font-size: 0.7rem !important;
     }
 }

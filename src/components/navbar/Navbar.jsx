@@ -3,7 +3,7 @@ import styles from './Navbar.module.css';
 import { FcMenu } from "react-icons/fc";
 
 export default function Navbar() {
- 
+
   const show =()=>{
 
     const item = document.querySelector('ul')
